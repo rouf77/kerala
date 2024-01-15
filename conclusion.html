@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <nav class="hsk-bar navbar navbar-inverse" role="navigation">
+    </nav>
+    <header>
+        <div class="logo-container">
+            <img src="photos-kl/kerala-tourism-title.png" alt="Kerala Tourism Logo">
+            <nav>
+                <ul>
+                    <li><a href="#">EXPERIENCE KERALA</a></li>
+                    <li><a href="#">WHERE TO GO</a></li>
+                    <li><a href="#">WHERE TO STAY</a></li>
+                    <li><a href="#">THINGS TO DO</a></li>
+                    <li><a href="#">PLAN YOUR TRIP</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+             
+            </nav>
+            <div class="social-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>KERALA</h1>
+            <p>Caressed by the Arabian Sea and Western Ghats, Kerala has 14 districts, each with its unique tourist destinations...</p>
+            <img src="photos-kl/kerala.jpg" alt="Kerala Landscape">
+        </section>
+
+
+
+        <section class="useful-links">
+            <ul class="list-unstyled footer-min">
+                <li><a href="#">Festivals</a>                </li>
+                <li><a href="#">Kerala Photos</a></li>
+                <li><a href="#">Subscribe</a></li>
+                <li><a href="#">Travel Desk</a></li>
+            </ul>
+        </section>
+
+        <div id="cd-nav" class="is-fixed">
+            <div class="text-center">
+                <a class="cd-nav-trigger">
+                
+                    <span>
+                    
+                    </span>
+                </a>
+            </div>
+            <nav id="cd-main-nav">
+                <ul class="has-transition">
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="Homestay">Homestay</a></li>
+                    <li><a href="Popular Destinations">Popular Destinations</a></li>
+                    <li><a href="About Us">About Us</a></li>
+                    <li><a href="Contact Us">Contact Us</a></li>
+                    <li>
+                       
+                        </div>
+                </ul>
+            </nav>
+        </div>
+
+        <section class="districts">
+            <div class="col-md-12 page-head">
+            <h2>KNOW MORE ABOUT DISTRICTS OF KERALA</h2></div>
+            <h6>Klick the district to view the deatails</h6>
+            <div class="card" onclick="toggleDescription(this)">
+                <img src="photos-kl/tvm.jpg" alt="Thiruvananthapuram Image">
+                <h4><button>Thiruvananthapuram</button></h4>
+                <p>It is the capital city of Kerala and is known for its historic landmarks...</p>
+            </div>
+
+
+            <div class="card" onclick="toggleDescription(this)">
+                <img src="photos-kl/kollam.jpg" alt="Kollam image">
+                <h4><button>Kollam</button></h4>
+                <p>One of the premier trade capitals of the Old World, Kollam is the centre of the country’s cashew trading and processing industry. The district’s Ashtamudi lake is the gateway to the magnificent backwaters of Kerala. The eight-hour boat trip between Kollam and Alappuzha is the longest and most enchanting experience on the backwaters of Kerala. The momentous decision to introduce a new Malayalam era was convened at Kollam and hence the Malayalam calendar came to be known as kollavarsham. Extolled by Marco Polo and Ibn Batuta in glowing terms, Kollam was once a famous port of international spice trade.</p>
+            </div>
+
+            <div class="card" onclick="toggleDescription(this)">
+                <img src="photos-kl/Pathanamthitta.jpg" alt="Pathanamthitta image">
+                <h4><button>Pathanamthitta</button></h4>
+                <p>A hilly province of pristine splendour, Pathanamthitta district is hailed as the centre of pilgrim worship in Kerala. Three rivers cross through its terrain comprising lowlands, the midlands and the highlands. Interspersed with temples, rivers, mountain ranges and coconut groves, more than fifty percent of the total area of this region is covered by forests. Pathanamthitta is also home to the unique Aranmula Kannadi - metal mirrors that are meticulously handcrafted - and the Vasthu Vidya Gurukulam, a village which practices the ancient Indian school of architecture.</p>
+            </div>
+
+
+                <div class="card" onclick="toggleDescription(this)">
+                <img src="photos-kl/Alappuzha.jpg" alt="Alappuzha image">
+                <h4><button>Alappuzha</button></h4>    
+                <p>Alappuzha, famous for its boat races, beaches, marine products and coir industry, is a world renowned backwater tourist destination of India.  Kuttanad, Alappuzha backwaters and Alappuzha beach are the must-see tourist attractions in the district. Also well-known as the 'Venice of the East’ because of network of canals and waterways, Alappuzha is a district of immense natural beauty.  It is embraced by the Arabian Sea in the west and has a network of lakes, lagoons and freshwater rivers criss-crossing it. Kuttanad is a land of lush paddy fields referred to as the 'Rice Bowl of Kerala' and it is one of the few places in the world where farming is done below sea level.</p>
+                </div>
+
+                <div class="card" onclick="toggleDescription(this)">
+                <img src="photos-kl/Kottayam.jpg" alt="Kottayam image">
+                <h4><button>Kottayam</button></h4>
+                <p>Located in the Southwest of Kerala is the district of Kottayam, renowned as the "Aksharanagari" or Land of Letters. Kottayam was the first town in India to achieve total literacy, and about four-fifth of the books published in Kerala, come from Kottayam. Sitting in the basin of Meenachil River and Vembanad lake, Kottayam is home to vast stretches of paddy fields, and massive rubber plantations and spice gardens. While tourists who love trekking can climb on Nadukani hills to enjoy the bird’s eye view of the lowlands, others who would love to see the rare species of feathered friends, can flock to Kumarakom Bird Sanctuary. Kottayam is rich in history, literature, tourist locales, and encompasses everything that Kerala is known for.</p>
+                </div>
+
+                <div class="card" onclick="toggleDescription(this)">
+                    <img src="photos-kl/Idukki.jpg" alt="Idukki image">
+                    <h4><button>Idukki</button></h4>
+                    <p>Idukki, the second largest district of Kerala, with Munnar and Periyar with its pride, the very sound of the district conjures up images of elephants, unending chains of hills and spice-scented plantations. Half of the district is covered by forests and the hill stations have a salubrious climate. When you are in Idukki, go for a glimpse of wildlife at close quarters from the safety of a boat at the Periyar Sanctuary or ride an elephant into the scenic jungle at the Periyar Wildlife Sanctuary, go boating on the Mattupetty and Kundala Dams, meet up with various animals at the Chinnar and Idukki Wildlife Sanctuaries, visit a tea plantation in Munnar or trek to Anamudi, the highest peak south of the Himalayas and many more.</p>              
+                </div>
+
+                <div class="card" onclick="toggleDescription(this)">
+                <img src="photos-kl/Ernakulam.jpg" alt="Ernakulam image">
+                <h4><button>Ernakulam</button></h4>
+                <p>A fascinating mixture of the old and the new, the district comprises many interesting cities including Kochi (Cochin), Ernakulam is the commercial capital of Kerala. One of the finest natural harbours in the world, Kochi, renowned as the 'Queen of the Arabian Sea', was once a major centre for commerce and trade. The British, Arabs, Chinese, Portuguese, Dutch etc., have all come to its shores in search of exotic spices and sandalwood. Even today, Ernakulam continues the tradition of welcoming visitors with its customary warmth and hospitality.</p>
+            </div>
+
+            <div class="card" onclick="toggleDescription(this)">
+            <img src="photos-kl/Thrissurr.jpg" alt="Thrissurr image">
+            <h4><button>Thrissurr</button></h4>
+            <p>Located in central Kerala, Thrissur is the cultural capital of Kerala. Descending down from the Western Ghats, Thrissur comprises highlands, plains, and seaboard. Historically, Thrissur has played a significant part in fostering cultural relations with rest of the world. Kodungalloor in Thrissur is the place where Jews, Christians and Muslims arrived to Kerala from the West. Cheraman Juma masjid, the oldest mosque in India, is located here. Thrissur district, being the seat of culture, houses the Kerala Kalamandalam, the Kerala Sahitya Academy, the Kerala Lalitakala Academy and the Kerala Sangeeta Nataka Academy. Thrissur is best known for the plethora of poorams, or regional festivals associated with Temples, earning it the title 'Land of Poorams'.</p>
+            </div>
+
+
+            <div class="card" onclick="toggleDescription(this)">
+            <img src="photos-kl/Palakkad.jpg" alt="Palakkad image">
+            <h4><button>Palakkad</button></h4>
+            <p>Palakkad is a vast stretch of fertile plains interspersed with hills, rivers, mountain streams and forests and is home to the Silent Valley National Park. A 40-kilometre mountain pass known as the Palakkad gap at the foothills of the Western Ghats, acts as a corridor between Kerala and Tamil Nadu.</p>
+            </div>
+
+            <div class="card" onclick="toggleDescription(this)">
+            <img src="photos-kl/Malappuram.jpg" alt="Malappuram image">
+            <h4><button>Malappuram</button></h4>
+            <p>Malappuram literally means a land atop hills and the region is enriched by three great rivers flowing through it – the Chaliyar, Kadalundi and the Bharathapuzha. Malappuram has made numerous contributions to the cultural heritage of Kerala. A famous centre for Hindu-Vedic learning and Islamic philosophy, the temples and mosques of this region are well known for their spectacular festivals. Along with historic monuments and diverse natural attractions, a range of cultural and ritual art forms add to its charm as a destination. Malappuram district has a rich and vibrant history.</p>
+            </div>
+
+            <div class="card" onclick="toggleDescription(this)">
+            <img src="photos-kl/Kozhikodee.jpg" alt="Kozhikode image">
+            <h4><button>Kozhikode</button></h4>
+            <p>Kozhikode district in Kerala is one of the most important regions of the Malabar coast. Serene beaches, historic sites, wildlife sanctuaries, rivers and hills make Kozhikode a popular destination. With a legendary seaport, Kozhikode was previously the most crucial region of the Malabar coast. Vasco da Gama landed on its shores in 1498. Once the capital of the influential Zamorins and a prominent trade and commerce centre, the winds of change have swept over this charming coastal land. The whiff of history continues to permeate the lanes, bazaars and business hubs of Kozhikode. Lush green countryside, serene beaches, historic sites, wildlife sanctuaries, rivers and hills make Kozhikode a popular destination.</p>
+            </div>
+
+            <div class="card" onclick="toggleDescription(this)">
+            <img src="photos-kl/Vayanadd.jpg" alt="Vayanad image">
+            <h4><button>Vayanad</button></h4>
+            <p>Located in the north east of Kerala, and at the southern tip of the Deccan plateau, the district of Wayanad explains why Kerala is dubbed the 'God's own country'. Least populous, least urbanised, and largely under forest cover, Wayanad is truly a heaven on earth. Numerous waterfalls, challenging trekking trails, misty hills, massive mountains, dense forests, breathtaking view points, and scenic lakes make Wayanad one of the most sought after destination in India. The Edakkal caves with its 6000 years old rock carvings are yet another spot of attraction that throws light to the history of the region. The indigenous tribes of Wayanad, with their unique age old customs celebrate the oneness of man with nature.</p>
+            </div>
+
+            <div class="card" onclick="toggleDescription(this)">
+            <img src="photos-kl/Kannur.jpg" alt="Kannur image">
+            <h4><button>Kannur</button></h4>
+            <p>Kannur is a culturally and historically rich district in the north of Kerala. It has long been a port and trade center and has had trade relations with several civilizations including Greeks, Romans and Arabs. It is part of the Western Ghats and hence blessed with many natural treasures. Kannur is dubbed as the City of Looms and Lores, thanks to the flourishing handloom industry and folk art called Theyyam. Theyyamis a ritualistic artform encompassing dance, music and mime, where the artist dons the guise of God. Kannur is believed to have got its name from being the land of Kannan or Krishna. True to the legend there are many famous temples in the region. The district is also famous for many alluring spots of interest including Payyambalam and Muzhuppilangadi beach, Arakkal museum, St. Angelo’s Fort etc. A visit to Kannur will be give a glimpse of the rich cultural tradition unique to Kerala.</p>    
+            </div>
+
+            <div class="card" onclick="toggleDescription(this)">
+            <img src="photos-kl/Kasargod.jpg" alt="Kasargod image">
+            <h4><button>Kasaragod</button></h4>
+            <p>The northernmost district of Kerala, Kasaragod is famous for its handlooms and its 293 kilometre long coastline. With its cultural uniqueness, the place is known as the land of gods. Rich in history, Kasaragod is home to the largest and best preserved fort in the State - Bekal. The historic Malik Deenar Mosque and the unique Ananthapura Lake Temple display a variety of styles in traditional architecture. This yesteryear port town of the Kolathiri Rajas abounds in myths and legends and exudes a magical charm with its spectacular art forms of Theyyam and Yakshagana, Poorakkali, Kolkali etc.</p>
+            </div>
+
+    <section class="additional-content">
+        <div class="additional-data">
+        <h3>God's own Country</h3>
+        <img src="photos-kl/KALARI.jpg" alt="" style="max-width: 100%; height: auto;">
+                
+        
+      
+            <h2>About Kerala Tourism</h2>
+            <p>Kerala is a gorgeous South Indian state which has long coastlines and mesmerizing hill stations like Munnar and Alleppey. The country has some exceptional places which can be explored with Kerala tourism. A few top things to do in Kerala are staying in a houseboat, elephant bathing, bird watching, shikara ride, and go for Periyar jeep ride. The culture of Kerala is influenced by Davidian culture and Indian culture.</p>
+            <div style="margin-top: 40px;">
+                <div style="margin-top: 60px;">
+            <img src="photos-kl/Chuvanna_thadi_a_kathakali_make_up_1663.jpg" alt="">
+        </div>
+            <div style="margin-bottom: 50px;"></div>
+            <img src="photos-kl/Edathua_Feast_1641.jpg" alt="">
+        </div>
+
+        <div style="margin-top: 90px;"></div>
+            <h4>Kerala Travel Guide</h4>
+            
+            <div style="margin-top: 90px;"></div>
+            <h4>Kerala Travel Guide</h4>
+            
+            <ul>
+                <section id="best-time">
+                    <a href="https://www.travelogyindia.com/kerala/best-time-to-visit-kerala.html" target="_blank">Learn more about the best time to visit Kerala</a>
+                 </section>
+
+                 <section>
+            <a href="https://www.holidify.com/pages/kerala-culture-137.html" target="_blank">Culture of Kerala</a>
+        </section>
+
+        <section>
+            <a href="https://www.holidify.com/collections/festivals-of-kerala" target="_blank">Top Fairs and Festivals in Kerala</a>
+        </section>
+
+<section>
+    <a href="https://www.stateofkerala.in/kerala_facts/kerala_history.php">History of Kerala state</a>
+</section>
+
+<section>
+    <a href="https://www.getyourguide.com/-l741/-tc63/?cmp=bing&ad_id=78615286288221&adgroup_id=1257841951316334&bid_match_type=bb&campaign_id=710121001&device=c&feed_item_id=&keyword=location_id%3D741&loc_interest_ms=1661&loc_physical_ms=150117&match_type=b&msclkid=907115dbca7e1ea12f4e707f076e26b5&network=o&partner_id=CD951&target_id=dat-2330414895344687&utm_adgroup=lc%3D741%3Akerala%7Cfn%3Df1%7Cagt%3Ddsa&utm_campaign=dc%3D55%3Ain%7Clc%3D741%3Akerala%7Cct%3Dcore%7Cln%3D29%3Aen%7Ctc%3Dall&utm_keyword=location_id%3D741&utm_medium=paid_search&utm_query=how%20to%20reach%20kerala%20tourism&utm_source=bing">How to reach Kerala</a>
+</section>               
+
+<section>
+    <a href="https://www.tripadvisor.com/Attraction_Review-g297631-d940955-Reviews-Kerala_Backwaters-Kerala.html">Kerala Backwaters</a>
+</section>
+
+
+
+<section>
+    <a href="https://www.tripadvisor.in/Attractions-g297631-Activities-c61-t52-Kerala.html">Top 10 Beaches of Kerala</a>
+</section>
+
+
+<section>
+    <a href="https://www.fabhotels.com/blog/hill-stations-in-kerala/">Hill stations in Kerala</a>
+</section>
+</ul>
+            <div style="margin-top: 90px;">
+            <img src="photos-kl/kerala-panorama-320x180.jpg" alt="">
+        </div>
+        <ul>
+            <h4>Some destinations in Kerala include:</h4>
+            <li>Kochi</li>
+            <li>Munnar</li>
+            <li>Alappuzha</li>
+            <li>Periyar National Park</li>
+            <li>Eravikulam National Park</li>
+            <li>Padmanabhaswamy Temple</li>
+        </ul>
+        <div style="margin-top: 80px;">
+            <ul>
+                <h4>Here are some other facts about Kerala: 
+                </h4>
+                <li>The word "Kerala" means "land of coconuts".
+                </li>
+                <li>Kerala has the highest sex ratio and life expectancy in India.
+                </li>
+                <li>The state is home to rainforests, hills, valleys, waterfalls, and beaches.
+                </li>
+                <li>Kerala is sometimes referred to as the "land of elephants".
+                </li>
+                <li>Kerala was formed in 1956 by combining Malayalam-speaking regions.
+                </li>
+                <li>The capital of Kerala is Thiruvananthapuram, but Kochi is considered the commercial and financial capital.</li>
+            </ul>
+        
+        </div>
+
+        <div style="margin-bottom: 100px;">
+            
+        <div style="margin-top: 90px;"></div>
+        
+            <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=kerala&amp;t=&amp;z=6&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 260px; height: 420px;"></iframe><style>.mapouter{position:relative;height:420px;width:260px;background:#fff;} .maprouter a{color:#fff !important;position:absolute !important;top:0 !important;z-index:0 !important;}</style><a href="https://blooketjoin.org">blooketjoin</a><style>.gmap_canvas{overflow:hidden;height:420px;width:260px}.gmap_canvas iframe{position:relative;z-index:2}</style></div></div>
+        
+        
+        </div>
+
+        <div class="W0urI CYJS5e GHMsie ZHugbd UivI7b" data-minw="270" style="background:#E5EDFF;color:#001D35;grid-column:span 2;grid-row:span 1" data-ved="2ahUKEwjCoe3tv8CDAxVdT2wGHU-vBgMQkooLKAJ6BAgSEAM"><div class="ZYbY5b"><div class="XY8hlc ZYbY5b PZPZlf" data-attrid="VisualDigestWebResult" data-docid="PPp7_oTwW_GZBM" data-hveid="CBsQAA"><a class="ro1ntb ZYbY5b ZHugbd" href="https://www.keralatourism.org/destination/alappuzha-beach/60" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.keralatourism.org/destination/alappuzha-beach/60&amp;ved=2ahUKEwjCoe3tv8CDAxVdT2wGHU-vBgMQ2LwJegQIGxAB"></a><div class="ZYbY5b"><div class="a4F0xe I48dHb"><div class="ITsvjd"><div class="oLJ4Uc" style="height:100%" data-hveid="CBsQAg"><img id="rimg_1" src="data:image/jpeg;base64,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" alt="Web Result Image" class="IOZdEc mNbAre" data-csiid="3" data-atf="5"></div></div><div class="HDMle"><div class="IvQexb LLotyc"><g-img class="Q0it2d"><img id="dimg_23" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB60lEQVR4AaXTQ4AYQQBE0R/btm3btm3btm3b1ijrW2zbtm9xp2L78IbV1UOMMf8FrEqwSawfCiN+skHOSdPvMp8KBKsy36t0UswHY35TIN8X2PJIjBxTLobwyfcF35Wk17EdEiS1lAv3+4Lvi7pov+gHiFQEuwJop60GhxawflGi89JUx2J8W7BTouFWQ+vfySl5BawKYJcH7IpBuFUTqSAy9qdQFAkvBXUskZSSHPL2/stpdlTQAKdcGXAq7sq1ssSTaouL+OJU7qfQQA1cp5CHXXmlFCWgSmd8K8/RZPGlA3YFcMq0YEONTUTfUPq46R7HHBua6j5elQYKlFRgkIyRSMHtCpXb9Mx/ul2vApvYXDEBdvmBmn0I06e+Yub4x4S1Cl45MzSR2T0yxSk2l5mDU7ITdrFk2CU74BZLEGFDgRUXM8c3PTpnNgQUS4lXsC8bS45l4izD8gYGvJa9cMovj7uhcG/c+vnxGs/G6dgCp34u7C7R8ebHwLfPSPxbNcHtFgVvZHJ8XPDrWpzNrQtD330w+SrMuqv1Feh/CIaeAK8W+L4Gy0C//TDqNPgYnVd+5TPouwcGHkAnd8GUiyq4qfV5GLAvGMOPwMQzIgMV7L8bRh+HkYe1vzsYvbaGpP+u4Azex3//zm8A0zB+1z3kFLUAAAAASUVORK5CYII=" class="YQ4gaf zr758c" height="14" width="14" alt="" data-csiid="4" data-atf="1"></g-img><span class="UynAtc OSrXXb"><span>Kerala Tourism</span></span></div><div class="rDCETb"><div class="pe7FNb">Alappuzha Backwaters and Houseboat cruise - Kerala Tourism</div></div></div></div><div class="RbVlwe" aria-hidden="true"></div></div></div></div></div>
+
+        <div style="margin-top: 90px;"></div>
+        <h4>Which part of Kerala is most beautiful?
+        </h4>
+        <h5>Alleppey.</h5>
+        <p> It's definitely one of the most beautiful places to visit in Kerala that is nestled between backwaters and the Arabian Sea. With postcard-like backwaters and surreal islands, Alleppey is a must-visit for all.</p>
+
+        </div>
+
+        <div style="margin-top: 90px;"></div>
+
+<img src="photos-kl/alpy.jpg" alt="" style="max-width: 100%; height: auto;">
+
+        <section id="best-time">
+<link rel="best-time" href="https://www.travelogyindia.com/kerala/best-time-to-visit-kerala.html">        </section>
+
+<div style="margin-top: 200px;"></div>
+
+<h4>What is best time to visit Kerala?
+</h4>
+<p>Winter season between September to March is the best time to visit Kerala. This is the time when Kerala has a comfortable climate and pleasant weather with less humidity. If you wish to explore the enchanting lagoons, tranquil canals and spicy plantations of Kerala's amazing cities, winter is the perfect time for you.</p>
+
+
+
+    </section>
+    
+
+    <!-- Your existing footer content -->
+
+    <script>
+        function scrollToSection(sectionId) {
+    var targetSection = document.getElementById(sectionId);
+
+    if (targetSection) {
+        // Using smooth scrolling behavior
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+}
+    </script>
+</section>
+
+
+
+
+            <div class="footer">
+            </main>
+            <p>&copy;
+Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033
+Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail: info@keralatourism.org.
+All rights reserved © Kerala Tourism 2023. Copyright | Terms of Use | Cookie Policy | Contact Us.
+Developed & Maintained by Invis. 2023 m_rouf_web developer</p>
+</div>  
+
+        </section>
+ 
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="d-flex justify-content-end">
+            <p class="address">
+                Venice of East
+                <br>
+                Alappuzha
+                <br>India, 688005
+                <br>
+                <br>
+                <i class="fa fa-phone"></i>
+                +91 9605092339
+                <br>
+                <i class="fa fa-envelope"></i>
+                raoofmuhammed803@gmail.com
+                </p>
+                </div>
+                <div class="col-md-2">
+                    <h5>  Menu</h5>
+                    <ul class="footer-links">
+                        <li>
+                        <a href="Home" title="HomestayKerala Homepage">Home</a>
+                        </li>
+                        <li>
+                            <a href="AboutUs" title="About">About Us</a>
+                        </li>
+                        <li>
+                            <a href="Destination" title="Destinations">
+                                Destinations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact" title="Contact Us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </p>
+        </div>
+    </div>
+
+
+    <div class="right-content">
+<p> created by muhammed rouf</p>
+
+</div>
+</footer>
+
+
+
+
+
+    <script>
+        function toggleDescription(card) {
+            var paragraph = card.querySelector('p');
+            paragraph.style.display = (paragraph.style.display === 'none' || paragraph.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+</html>

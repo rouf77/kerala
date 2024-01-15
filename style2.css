@@ -1,0 +1,351 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 10;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px !important;
+}
+
+header {
+    background-color: #0b390b;
+    color: #fffbfb;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container img{
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f5e6e6;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+.social-icons a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.social-icons a:hover{
+    color: brown;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.intro{
+    text-align: center;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.useful-links ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+.useful-links li {
+    margin-right: 20px;
+}
+
+.useful-links a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+.useful-links a:hover{
+    color: brown;
+}
+
+.useful-links ul.list-unstyled.footer-min li {
+    display: inline-block;
+    margin-right: 20px; 
+    border-right: 3px solid #ec1414;
+    padding-right: 15px;
+}
+
+.useful-links ul.list-unstyled.footer-min li:last-child {
+    border-right: none;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.cd-nav ul {
+    position: fixed;
+    z-index: 1010;
+    right: 5%;
+    top: 20px;
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 0;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    -webkit-transition: -webkit-transform .3s, visibility 0s .3s;
+    -moz-transition: -moz-transform .3s, visibility 0s .3s;
+    transition: transform .3s, visibility 0s .3s;
+    transition-duration: 0.3s, 0s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0.3s;
+    transition-property: transform, visibility;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    -o-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    border-radius: 0.25em;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    background: #c00a27;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(192, 10, 39);
+    box-shadow: 0 0 10px rgba(232, 74, 100, .4);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    box-shadow: 2px 2px 4px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.card h4 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.card p {
+    display: none;
+    padding: 10px;
+}
+
+.footer{
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+}
+footer {
+    background-color: #e94545;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.address {
+    flex: 1;
+    max-width: 400px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+
+    list-style: none;
+    align-items: center;
+    padding:10px;
+    margin: 10px;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+
+.footer-links a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ... Your existing CSS ... */
+
+.additional-content {
+    position:absolute;
+    top: 120px;
+    right: 0;
+    background-color: #f0f0f0; /* Add background color as needed */
+    padding: 50px;
+    width: 300px; /* Adjust the width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for styling */
+}
+
+
+.right-content {
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .additional-content {
+        position: static;
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: none;
+    }
+
+    footer{
+        background-color: #333;
+        color: #ccc;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    header{
+        padding: 10px;
+        max-width: 600px;
+        font-size: small;
+        font-style: oblique;
+        align-items: baseline;    
+    }
+
+    .logo-container {
+        align-items: baseline;
+        padding: 10px;
+        max-width: auto;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .intro {
+        padding: 30px 10px;
+    }
+
+    .useful-links {
+        padding: 10px;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+    .center-container {
+        padding: 30px 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Change the direction to a column for small screens */
+        align-items: center; /* Center the items in the column */
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Add spacing between items in the column */
+    }
+}
